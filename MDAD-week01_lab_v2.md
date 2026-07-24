@@ -429,6 +429,8 @@ Doctor summary (to see all details, run flutter doctor -v):
 > `[!] Android Studio (not installed)` **ไม่ใช่ Error ที่ต้องแก้** — ตราบที่ `[✓] Android toolchain` และ `[✓] VS Code` ผ่าน ก็พัฒนา Flutter ได้เต็มรูปแบบ
 
 > 📝 **บันทึกผล:** จดบันทึก Error (`[✗]`) ที่พบและทำการแก้ไขตามคำแนะนำ แต่ไม่ต้องแก้ `[!] Android Studio`
+
+---
 [√] Flutter (Channel stable, 3.44.4, on Microsoft Windows [Version 10.0.19045.6456], locale    th-TH)
 [√] Windows Version (10 Pro 64-bit, 22H2, 2009)
 [X] Android toolchain - develop for Android devices
@@ -446,8 +448,6 @@ Doctor summary (to see all details, run flutter doctor -v):
       default components
 [√] Connected device (3 available)
 [√] Network resources
----
-
 ### ขั้นตอนที่ 4: ติดตั้ง Android SDK Command-line Tools (แทน Android Studio)
 
 เราจะติดตั้งเฉพาะ **Command-line Tools** ซึ่งให้ทุกอย่างที่ Flutter ต้องการ โดยไม่ต้องติดตั้ง Android Studio IDE ทั้งตัว
