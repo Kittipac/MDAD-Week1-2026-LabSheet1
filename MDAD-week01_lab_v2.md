@@ -438,7 +438,6 @@ Doctor summary (to see all details, run flutter doctor -v):
       (or visit https://flutter.dev/to/windows-android-setup for detailed instructions).
       If the Android SDK has been installed to a custom location, please use
       `flutter config --android-sdk` to update to that location.
-
 [√] Chrome - develop for the web
 [X] Visual Studio - develop Windows apps
     X Visual Studio not installed; this is necessary to develop Windows apps.
