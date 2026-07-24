@@ -431,23 +431,7 @@ Doctor summary (to see all details, run flutter doctor -v):
 > 📝 **บันทึกผล:** จดบันทึก Error (`[✗]`) ที่พบและทำการแก้ไขตามคำแนะนำ แต่ไม่ต้องแก้ `[!] Android Studio`
 
 ---
-[√] Flutter (Channel stable, 3.44.4, on Microsoft Windows [Version 10.0.19045.6456], locale    th-TH)
-[√] Windows Version (10 Pro 64-bit, 22H2, 2009)
-[X] Android toolchain - develop for Android devices
-    X Unable to locate Android SDK.
-      Install Android Studio from: https://developer.android.com/studio/index.html
-      On first launch it will assist you in installing the Android SDK components.
-      (or visit https://flutter.dev/to/windows-android-setup for detailed instructions).
-      If the Android SDK has been installed to a custom location, please use
-      `flutter config --android-sdk` to update to that location.
-[√] Chrome - develop for the web
-[X] Visual Studio - develop Windows apps
-    X Visual Studio not installed; this is necessary to develop Windows apps.
-      Download at https://visualstudio.microsoft.com/downloads/.
-      Please install the "Desktop development with C++" workload, including all of its
-      default components
-[√] Connected device (3 available)
-[√] Network resources
+
 ### ขั้นตอนที่ 4: ติดตั้ง Android SDK Command-line Tools (แทน Android Studio)
 
 เราจะติดตั้งเฉพาะ **Command-line Tools** ซึ่งให้ทุกอย่างที่ Flutter ต้องการ โดยไม่ต้องติดตั้ง Android Studio IDE ทั้งตัว
