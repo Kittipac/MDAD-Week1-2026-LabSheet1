@@ -884,6 +884,28 @@ class _MyHomePageState extends State<MyHomePage> {
 ```
 
 > 📝 **แบบฝึกหัด:** วาด Widget Tree ของโค้ดนี้ลงในใบงาน
+> MyApp (StatelessWidget)
+└── MaterialApp
+    └── MyHomePage (StatefulWidget)
+        └── Scaffold
+            ├── AppBar
+            │   └── Text
+            │       └── "Flutter Demo Home Page"
+            │
+            ├── Body
+            │   └── Center
+            │       └── Column
+            │           ├── Text
+            │           │   └── "You have pushed the button this many times:"
+            │           │
+            │           └── Text
+            │               └── $_counter
+            │
+            └── FloatingActionButton
+                └── Icon
+                    └── Icons.add
+> <img width="757" height="656" alt="image" src="https://github.com/user-attachments/assets/b46201f4-4903-4785-8f9b-d4208fe5d1d9" />
+
 
 ---
 
