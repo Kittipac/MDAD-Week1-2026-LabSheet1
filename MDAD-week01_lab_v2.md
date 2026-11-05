@@ -429,6 +429,8 @@ Doctor summary (to see all details, run flutter doctor -v):
 > `[!] Android Studio (not installed)` **ไม่ใช่ Error ที่ต้องแก้** — ตราบที่ `[✓] Android toolchain` และ `[✓] VS Code` ผ่าน ก็พัฒนา Flutter ได้เต็มรูปแบบ
 
 > 📝 **บันทึกผล:** จดบันทึก Error (`[✗]`) ที่พบและทำการแก้ไขตามคำแนะนำ แต่ไม่ต้องแก้ `[!] Android Studio`
+>
+> **บันทึกผล:** จากการตรวจสอบสภาพแวดล้อมการพัฒนาด้วยคำสั่ง flutter doctor พบว่า Flutter SDK, Android SDK, Chrome และ VS Code สามารถใช้งานได้ตามปกติ โดยพบคำเตือน [!] Android Studio (not installed) เนื่องจากไม่ได้ติดตั้งโปรแกรม Android Studio ซึ่งไม่ส่งผลต่อการพัฒนาแอปพลิเคชัน เนื่องจากใช้ Android SDK Command-line Tools ผ่าน VS Code แทน จึงไม่จำเป็นต้องแก้ไขคำเตือนดังกล่าว
 
 ---
 
